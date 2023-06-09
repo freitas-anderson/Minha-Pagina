@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family=Changa&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(9, 21, 34);
+}
+
+/*cabecalho*/
+.main {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person-container{
+    color: rgb(245, 245, 245);
+}
+
+.person-container__img{
+    width: 180px;
+    border-radius: 50%;
+    border: 3px solid rgb(101, 185, 253);
+    margin-bottom: 24px;
+}
+
+.person-container__name{
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.person-container__subtitle{
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+/*box*/
+.info-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;  
+    padding: 25px;
+}
+
+.info-box{
+    width: 295px;
+    height: 180px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 29px;
+}
+
+.info-box__title{
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+/*links*/
+.contact-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.contact-container__link{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container__icon{
+    width: 45px;
+}
