@@ -13,7 +13,7 @@ body{
 
 /*cabecalho*/
 .main {
-    height: 120vh;
+    height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
