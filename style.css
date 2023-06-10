@@ -13,7 +13,7 @@ body{
 
 /*cabecalho*/
 .main {
-    height: 115vh;
+    height: 120vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -47,12 +47,12 @@ body{
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;  
-    padding: 16px;
+    padding: 19px;
 }
 
 .info-box{
     width: 295px;
-    height: 200px;
+    height: 219px;
     background-color: white;
     padding: 24px;
     border-radius: 29px;
