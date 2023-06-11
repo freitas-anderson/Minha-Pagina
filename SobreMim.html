@@ -10,8 +10,8 @@
         body{
             background-color: rgb(9, 21, 34);
         }
+        /*nome*/
         .main{
-            height: 130vh;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -22,9 +22,9 @@
         }
         .header-container__name{
             font-size: 40px;
-            margin-bottom: 100px;
+            margin-bottom: 20px;
         }
-        
+        /*infos*/
         .content-container{
             display: flex;
             text-align: left;
@@ -40,6 +40,11 @@
         .info-description{
             font-size: 25px;
             color: white;
+        }
+        .info-mais{
+            font-size: 25px;
+            color: white;
+            text-align: center;
         }
         
         /*link*/
@@ -63,16 +68,18 @@
 <body>
     <main class="main">
         <section class="header-container">
-            <h1 class="header-container__name">Anderson Freitas</h1>
+            <h1 class="header-container__name">Anderson <br>Freitas</h1>
         </section>
 
         <section class="content-container">
-            <h2 class="info-title">Vou contar um pouco sobre mim</h2>
+            <h2 class="info-title">Um pouco sobre mim</h2>
             <p class="info-description">Estudante na area de desenvolvimento de sistemas, atuo no mercado 
                 como freelancer, entregando solucoes complementares para sistemas web.<br>
                 Sou um entusiasta do mundo de desenvolvimento, procurando sempre 
-                se atualizar com as novas tecnologias.
+                me atualizar com as novas tecnologias.
             </p>
+            <br><br>
+            <h3 class="info-mais">Quer saber mais, <br> acesse os links abaixo.</h3>
         </section>
 
         <section class="contact-container">
