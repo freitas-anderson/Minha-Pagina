@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(9, 21, 34);
+    background-color: rgb(40, 57, 75);
 }
 
 /*cabecalho*/
@@ -21,13 +21,13 @@ body{
 }
 
 .person-container{
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
 }
 
 .person-container__img{
     width: 140px;
     border-radius: 50%;
-    border: 3px solid rgb(101, 185, 253);
+    border: 3px solid rgb(255, 255, 255);
     margin-bottom: 24px;
 }
 
@@ -51,19 +51,20 @@ body{
 }
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color:  rgb(9, 21, 34);
-    color: rgb(255, 255, 255);
+    display:block;
+    padding: 10px 70px;
+    background-color:  hwb(0 100% 0%);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
-    border-radius: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
     position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    margin-bottom: 10px;
   }
   
   .button:before {
@@ -78,17 +79,17 @@ body{
   }
   
   .button:hover {
-    color: rgb(200, 205, 209);
-    background-color: rgb(90, 117, 146);
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 57, 75);
   }
   
   .button:hover:before {
-    border-color:rgb(90, 117, 146);
+    border-color: rgb(40, 57, 75);
     transition-delay: 0.5s;
   }
   
 
-/*links*/
+/*links
 .contact-container{
     display: flex;
     gap: 15px;
@@ -104,4 +105,4 @@ body{
 .contact-container__icon{
     width: 45px;
 }
-
+*/
