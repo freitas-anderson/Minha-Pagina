@@ -1,6 +1,6 @@
 body{
-    width: 100%;
-    heigdht: 100px;
+    width: ;
+    height: 100%;
     background-color: #394943;
 
 }
@@ -8,7 +8,7 @@ body{
 .container{
     background-color: #262627;
     width: 350px;
-    height: 500px;
+    height: 450px;
     border-radius: 15px;
     display: flex;
     box-shadow: 20px 20px 18px  #000;
